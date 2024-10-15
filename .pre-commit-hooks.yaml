@@ -1,0 +1,6 @@
+- id: sonarqube-precommit-hook
+  name: SonarQube Pre-commit Hook
+  description: Run SonarQube scan before committing.
+  entry: ./run-sonarqube-scan.sh
+  language: script
+  files: \.java$
